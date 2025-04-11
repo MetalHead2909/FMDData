@@ -1,0 +1,6 @@
+Github Reference: https://github.com/moskomule/senet.pytorch/blob/master/senet/se_module.py
+
+Additional Training configuration required:
+In yolov5/models/yolo.py 
+Add the following
+from models.common import SEBlock

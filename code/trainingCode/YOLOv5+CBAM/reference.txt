@@ -1,0 +1,6 @@
+Github Reference: https://github.com/Jongchan/attention-module/blob/master/MODELS/cbam.py
+
+Additional Training configuration required:
+In yolov5/models/yolo.py 
+Add the following
+from models.common import CBAM

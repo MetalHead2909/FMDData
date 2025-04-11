@@ -1,0 +1,17 @@
+names:
+- acne
+- blackhead
+- darkspot
+- freckle
+- nodules
+- skinredness
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: micronutrientdeficiencydata
+  url: https://universe.roboflow.com/ameyagarwal10/micronutrientdeficiencydata/dataset/1
+  version: 1
+  workspace: ameyagarwal10
+test: ../MicronutrientDeficiencyData-1/test/images
+train: ../MicronutrientDeficiencyData-1/train/images
+val: ../MicronutrientDeficiencyData-1/valid/images

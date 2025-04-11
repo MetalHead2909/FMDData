@@ -1,0 +1,16 @@
+#Assumed folder structure for training
+root
+|___yolov5/*
+|___MicronutrientDeficiencyData-1/*
+
+#Steps for training yolov5
+1. !git clone https://github.com/ultralytics/yolov5
+2. !pip install -r yolov5/requirements.txt
+3. #append to the code in yolov5/models/common.py
+4. #append to the code in yolov5/models/detect.py
+5. #change code as per model specfication in yolov5/models/yolov5s.yaml
+6. #check directories for train, test, valid in MicronutrientDeficiencyData-1/data.yaml 
+7. #Training code (working directory - root)
+!python yolov5/train.py --img 640 --batch 16 --epochs 500 --data MicronutrientDeficiencyData-1/data.yaml --cfg yolov5/models/yolov5s.yaml --weights '' --save-period 10
+8. #Testing using val.py
+!python yolov5/val.py --data MicronutrientDeficiencyData-1/data.yaml --weights yolov5/runs/train/exp/weights/best.pt --task test

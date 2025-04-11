@@ -1,0 +1,6 @@
+Github Reference: https://github.com/houqb/CoordAttention/blob/main/coordatt.py
+
+Additional Training configuration required:
+In yolov5/models/yolo.py 
+Add the following
+from models.common import CABlock
