@@ -9,7 +9,7 @@ If you use this for research, please cite. Here is an example BibTeX entry:
   author={Amey Agarwal, Dhananjay R. Kalbande, Shreya Rathod, Riva Rodrigues, Nirmitee Sarode},
   year={2025},
   publisher={GitHub},
-  howpublished={https://github.com/MetalHead2909/MicronutrientDeficiencyData},
+  howpublished={https://github.com/MetalHead2909/FMDData},
 }
 ```
 
